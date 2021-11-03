@@ -1,0 +1,172 @@
+body {
+  background: #ddd;
+  margin: 1rem;
+  padding: 1rem;
+  max-width: 80%;
+  margin: 2rem auto;
+  font: 1rem 'Fira Sans', sans-serif;
+}
+
+.heading {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: stretch;
+	align-content: center;
+	border-top: 150px;
+}
+
+
+nav {
+	border-bottom: 2px solid orange;
+}
+
+ol {
+	padding-left: 0;
+}
+
+.crumb {
+	margin-right: 2em;
+	display: inline;
+}
+
+.button {
+  background-color: #f2ff41;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button {
+  background-color: white; 
+  color: rgb(28, 167, 0); 
+  border: 2px solid #f2ff41;
+}
+
+.button:hover {
+  background-color: #f2ff41;
+  color: rgb(8, 22, 63);
+}
+
+a {
+	color: orange;
+}
+
+a:visited {
+	color: crimson;
+}
+
+
+input {
+	display: block;
+}
+
+img {
+	max-width: 300px;
+	border-radius: 50%;
+}
+
+legend {
+    background-color: #000;
+    color: #fff;
+    padding: 3px 6px;
+}
+
+section-1 {
+  display: flex;
+	justify-content: center;
+
+}
+section-2 {
+  display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: stretch;
+	align-content: center;
+  padding-top:50px;
+
+}
+
+.output {
+    font: 1rem 'Fira Sans', sans-serif;
+}
+  
+  .container {
+	width: 80%;
+	height: 50px;
+	max-width: 1200px;
+	margin: 0 auto;
+  }
+  
+  .container * {
+	box-sizing: content-box;
+  }
+  
+  .flex-outer,
+  .flex-inner {
+	list-style-type: none;
+	padding: 0;
+  }
+  
+  .flex-outer {
+	max-width: 800px;
+	margin: 0 auto;
+  }
+  
+  .flex-outer li,
+  .flex-inner {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+  }
+  
+  .flex-inner {
+	padding: 0 8px;
+	justify-content: space-between;  
+  }
+  
+  .flex-outer > li:not(:last-child) {
+	margin-bottom: 20px;
+  }
+  
+  .flex-outer li label,
+  .flex-outer li p {
+	padding: 8px;
+	font-weight: 300;
+	letter-spacing: .09em;
+	text-transform: uppercase;
+  }
+  
+  .flex-outer > li > label,
+  .flex-outer li p {
+	flex: 1 0 120px;
+	max-width: 220px;
+  }
+  
+  .flex-outer > li > label + *,
+  .flex-inner {
+	flex: 1 0 220px;
+  }
+  
+  .flex-outer li p {
+	margin: 0;
+  }
+  
+  .flex-outer li input:not([type='checkbox']),
+  .flex-outer li textarea {
+	padding: 15px;
+	border: none;
+  }
+  
+  .flex-inner li {
+	width: 100px;
+  }

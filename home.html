@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Homepage</title>
+    <link href="styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <nav>
+      <ol>
+        <li class="crumb"><a href="./home.html">Home</a></li>
+        <li class="crumb"><a href="./profile.html">Profile</a></li>
+        <li class="crumb"><a href="./about.html">About</a></li>
+      </ol>
+    </nav>
+
+    <content>
+      <h1>Welcome to this little website.</h1>
+      <p>Hello World</p>
+
+      <img onmouseover="getAlert(this)" src="_build\handouts\Duck.png" />
+
+      <section>
+        <article>
+          Welcome to the page you can contact us below! We would love to gether
+          your information to sell you hats, tents, or a purple cat! Thanks for
+          visiting we're watching you!
+        </article>
+      </section>
+      <section>
+        <ul>
+          <li>You have a nice hat!</li>
+          <li>You are so smart for clicking on this page!</li>
+          <li>Those are some sweet kicks!</li>
+        </ul>
+      </section>
+
+      <form id="contact">
+		  <fieldset>
+			  <legend>Contact Us</legend>
+
+        Your name:
+        <input type="text" />
+
+        Message:
+        <input type="textarea" />
+	</fieldset>
+        <br />
+
+        <fieldset>
+          <legend>How did you hear about us?</legend>
+
+          <input type="radio" id="google" name="referral" />
+          <label for="google">Google</label><br />
+
+          <input type="radio" id="friend" name="referral" />
+          <label for="friend">Friend</label><br />
+
+          <input type="radio" id="other" name="referral" />
+          <label for="other">Other</label>
+        </fieldset>
+        <input type="submit" />
+      </form>
+    </content>
+
+    <script src="about.js"></script>
+  </body>
+</html>
